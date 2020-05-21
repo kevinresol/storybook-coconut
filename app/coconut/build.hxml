@@ -1,0 +1,8 @@
+coconut.vdom.Renderer
+-js dist/client/preview/vdom.js
+-dce full
+
+-lib coconut.vdom
+
+--macro addGlobalMetadata('coconut.vdom.Renderer.mountInto', '@:keep', false, false, true)
+--macro addGlobalMetadata('coconut.vdom.Renderer.mountInto', '@:expose("mount")', false, false, true)
