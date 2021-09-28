@@ -4,5 +4,6 @@ coconut.vdom.Renderer
 
 -lib coconut.vdom
 
+--macro addGlobalMetadata('coconut.diffing.internal', '@:keep', true, true, true)
 --macro addGlobalMetadata('coconut.vdom.Renderer.mountInto', '@:keep', false, false, true)
 --macro addGlobalMetadata('coconut.vdom.Renderer.mountInto', '@:expose("mount")', false, false, true)
